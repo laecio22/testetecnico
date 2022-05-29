@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const ContainerApresentations = styled.section`
-  /* background-color: #e5e5e5; */
   min-height: 80vh;
   display: flex;
   align-items: center;
 
   img {
-    height: 450px;
+    min-height: 450px;
     margin: 0 100px;
   }
 `;
