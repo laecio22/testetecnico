@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerBanner = styled.aside`
   font-style: italic;
-  margin-left:60px;
+  margin-left:90px;
   margin-top:80px;
   
 
@@ -36,7 +36,8 @@ export const BoxText = styled.div`
 
   p{
     color: #be9667;
-    font-size: 24px;   
+    font-size: 32px; 
+    font-weight:400;  
   }
   
   p:first-child{
@@ -47,6 +48,7 @@ export const BoxText = styled.div`
     font-style: normal;
     font-size: 90px;
     grid-column: 1 / span 3;
+    text-transform:uppercase;
 
   }
 
@@ -62,8 +64,8 @@ export const TextProm = styled.p`
     font-size: 24px;  
     font-style:normal;
     width: 404px;   
-    margin-top:50px;
-    margin-bottom:15px;
+    margin-top:70px;
+    margin-bottom:30px;
 
     span{
         color:#e5e5e5;        

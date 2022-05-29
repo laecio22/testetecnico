@@ -6,7 +6,7 @@ const Banner = ()=>{
       <ContainerBanner>
         <BoxText>
             <p>Elegante é ter um</p>
-            <p>ALFAIATE</p>
+            <p>alfaiate</p>
             <p>para chamar de seu</p>
           
         </BoxText>
