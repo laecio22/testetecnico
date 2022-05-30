@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ContainerServices = styled.section`
   min-height: 100vh;
+  margin-top:100px;
+  margin-bottom:80px;
 `;
 
 export const BoxShirt = styled.div`
@@ -83,7 +85,6 @@ export const Item = styled.div`
 export const BoxTailor = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 100px;
   position: relative;
 `;
 

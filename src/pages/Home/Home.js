@@ -7,6 +7,7 @@ import CommentPresentations from "../../components/CommentPresentations/CommentP
 import Advantages from "../../components/Advantages/Advantages";
 import Promotion from "../../components/Promotion/Promotion";
 import Services from "../../components/Services/Services";
+import Testimony from "../../components/Testimony/Testimony";
 
 const Home = ()=>{
     return (
@@ -20,6 +21,7 @@ const Home = ()=>{
             <Advantages/>
             <Promotion/>
             <Services/>
+            <Testimony/>
           
         </>
     )
