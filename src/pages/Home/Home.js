@@ -8,6 +8,7 @@ import Advantages from "../../components/Advantages/Advantages";
 import Promotion from "../../components/Promotion/Promotion";
 import Services from "../../components/Services/Services";
 import Testimony from "../../components/Testimony/Testimony";
+import Contact from "../../components/Contact/Contact";
 
 const Home = ()=>{
     return (
@@ -22,6 +23,7 @@ const Home = ()=>{
             <Promotion/>
             <Services/>
             <Testimony/>
+            <Contact/>
           
         </>
     )
