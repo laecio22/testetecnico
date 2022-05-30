@@ -6,6 +6,7 @@ import Presentations from "../../components/Presentations/Presentations";
 import CommentPresentations from "../../components/CommentPresentations/CommentPresentations";
 import Advantages from "../../components/Advantages/Advantages";
 import Promotion from "../../components/Promotion/Promotion";
+import Services from "../../components/Services/Services";
 
 const Home = ()=>{
     return (
@@ -18,6 +19,7 @@ const Home = ()=>{
             <CommentPresentations/>
             <Advantages/>
             <Promotion/>
+            <Services/>
           
         </>
     )

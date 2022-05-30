@@ -18,7 +18,7 @@ const Presentations = ()=>{
                 <blockquote>“Nosso objetivo é superar a expectativa do cliente proporcionando-lhe satisfação ao usar nossos produtos, 
                     aliado a um relacionamento franco e honesto, valorizando o ser humano.”
                 </blockquote>
-                <img src={imageAspas}  alt="imagem de aspas representando citação"/>
+                <img src={imageAspas} alt="imagem de aspas representando citação"/>
                 <span>Renee Trajar</span>                
                 <button>Agende uma visita!</button>
             </BoxTextPresentations>

@@ -43,7 +43,7 @@ export const BoxTextPresentations = styled.div`
   }
 
   img {
-    height: 130px;
+    min-height: 130px;
     width: 150px;
     position: absolute;
     right: 30px;
