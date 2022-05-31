@@ -18,7 +18,7 @@ const Home = () => {
         <Header />
         <Banner />
       </MainContainer>
-      <Presentations />
+      <Presentations/>
       <CommentPresentations />
       <Advantages />
       <Promotion />

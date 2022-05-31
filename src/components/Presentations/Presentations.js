@@ -5,7 +5,7 @@ import imageAspas from '../../assets/img/aspas.png';
 
 const Presentations = ()=>{
     return(
-        <ContainerApresentations>
+        <ContainerApresentations id="sectionPresentations">
             <img src={imageTrajar} alt="imagem de trajar"/>
             <BoxTextPresentations>
                 <h1>Renee Trajar</h1>

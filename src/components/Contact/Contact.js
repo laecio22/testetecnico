@@ -10,7 +10,7 @@ import { ContainerContact,
 
 const Contact  = ()=>{
     return (
-        <ContainerContact>
+        <ContainerContact id="sectionContacts">
             <TitleSectionContact>Contato</TitleSectionContact>
             <ContainerGroupContact>
                 <BoxGroupContact>

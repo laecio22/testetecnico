@@ -4,11 +4,11 @@ import { MenuNav } from "./styled";
 const Navbar = ()=>{
     return(
        <MenuNav>
-           <li><a href="#">EMPRESA</a></li>
-           <li><a href="#">CAMISARIA</a></li>
-           <li><a href="#">ALFAIATARIA</a></li>
-           <li><a href="#">DEPOIMENTOS</a></li>
-           <li><a href="#">CONTATO</a></li>
+           <li><a href="#sectionPresentations">EMPRESA</a></li>
+           <li><a href="#sectionShirt">CAMISARIA</a></li>
+           <li><a href="#sectionTailor">ALFAIATARIA</a></li>
+           <li><a href="#sectionTestimony">DEPOIMENTOS</a></li>
+           <li><a href="#sectionContacts" >CONTATO</a></li>
        </MenuNav>
     )
 }

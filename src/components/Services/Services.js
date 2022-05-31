@@ -16,7 +16,7 @@ import imageTerno from "../../assets/img/tailor2.png";
 const Services = () => {
   return (
     <ContainerServices>
-      <BoxShirt>
+      <BoxShirt id="sectionShirt">
         <BoxImageShirt>
           <img src={imageTailor} alt="imagem camisa elegante" />
         </BoxImageShirt>
@@ -38,7 +38,7 @@ const Services = () => {
           <button>Quero um orçamento </button>
         </TextInfoShirt>
       </BoxShirt>
-      <BoxTailor>
+      <BoxTailor id="sectionTailor">
         <TextInfoTailor>
           <h1>Alfaiataria</h1>
           <h3>Totalmente feito a mão sob medida</h3>
