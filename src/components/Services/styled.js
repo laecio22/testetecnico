@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const ContainerServices = styled.section`
   min-height: 100vh;
-  margin-top:100px;
-  margin-bottom:80px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 `;
 
 export const BoxShirt = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom:80px;
+  margin-bottom: 80px;
   position: relative;
 `;
 export const BoxImageShirt = styled.div`
@@ -18,6 +18,19 @@ export const BoxImageShirt = styled.div`
   position: relative;
   left: 100px;
   z-index: 1;
+  overflow:hidden;
+  img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;   
+  }
+
+  :hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 `;
 export const TextInfoShirt = styled.div`
   border: 1px solid #e5e5e5;
@@ -139,5 +152,20 @@ export const TextInfoTailor = styled.div`
 `;
 
 export const BoxImageTailor = styled.div`
-    border: 1px solid #1c86a4;
+  border: 1px solid #1c86a4;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index:2;
+  }
+
+  :hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 `;

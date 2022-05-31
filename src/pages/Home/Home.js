@@ -9,24 +9,25 @@ import Promotion from "../../components/Promotion/Promotion";
 import Services from "../../components/Services/Services";
 import Testimony from "../../components/Testimony/Testimony";
 import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 
-const Home = ()=>{
-    return (
-        <>
-            <MainContainer>
-               <Header/>
-               <Banner/>             
-            </MainContainer>
-            <Presentations/>
-            <CommentPresentations/>
-            <Advantages/>
-            <Promotion/>
-            <Services/>
-            <Testimony/>
-            <Contact/>
-          
-        </>
-    )
-}
+const Home = () => {
+  return (
+    <>
+      <MainContainer>
+        <Header />
+        <Banner />
+      </MainContainer>
+      <Presentations />
+      <CommentPresentations />
+      <Advantages />
+      <Promotion />
+      <Services />
+      <Testimony />
+      <Contact />
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;

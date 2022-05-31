@@ -1,6 +1,6 @@
 import React from "react";
-import { ContainerDetails, BoxImageLawyer, BoxImageComment } from "./styled";
-import imageProfile from "../../assets/img/perfil.png";
+import { ContainerDetails, BoxImageLawyer, BoxImageComment, BoxBackground } from "./styled";
+// import imageProfile from "../../assets/img/perfil.png";
 import imageNelson from "../../assets/img/perfil1.png";
 
 const CommentPresentations = () => {
@@ -19,7 +19,10 @@ const CommentPresentations = () => {
         </div>
       </BoxImageComment>
       <BoxImageLawyer>
-        <img src={imageProfile} alt="imagem do perfil" />
+        <BoxBackground>
+        
+        </BoxBackground>
+        {/* <img src={imageProfile} alt="imagem do perfil" /> */}
       </BoxImageLawyer>
     </ContainerDetails>
   );

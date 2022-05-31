@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import imageTailor from "../../assets/img/tailor.png";
+import imageProfile from "../../assets/img/perfil.png";
 
 export const ContainerDetails = styled.section`
   display: grid;
@@ -12,7 +13,7 @@ export const ContainerDetails = styled.section`
     position: absolute;
     right: 240px;
     height: 330px;
-    top: 20px;
+    top: 20px;   
   }
 `;
 
@@ -20,12 +21,12 @@ export const BoxImageComment = styled.div`
   background-image: url(${imageTailor});
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 90px auto;
 
   blockquote {
     font-family: "Lato";
     font-size: 24px;
     width: 600px;
+    margin:80px auto;
   }
 
   div {
@@ -52,11 +53,13 @@ export const BoxImageComment = styled.div`
 `;
 
 export const BoxImageLawyer = styled.div`
-  background-color: rgba(2, 75, 104, 0.81);
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+   background-image:url(${imageProfile});
+   background-size:cover; 
+   min-height:100%;  
 `;
+
+export const BoxBackground = styled.div`
+   width:100%;
+   height:100%;
+   background: rgba(2, 75, 104, 0.81);
+`
