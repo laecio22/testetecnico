@@ -14,7 +14,7 @@ import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      <MainContainer>
+      <MainContainer id="Home">
         <Header />
         <Banner />
       </MainContainer>

@@ -14,15 +14,20 @@ export const BoxImage = styled.div`
 `;
 
 export const BoxCopyright = styled.div`
-  margin-right: 30px;
-
-  button {
-    background: #ffffff;
-    border-radius: 4px;
-    width: 40px;
-    height: 40px;
+  margin-right: 30px; 
+  a {
     cursor: pointer;
   }
+`;
+export const BoxLinkTop = styled.div`
+  background: #ffffff;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #014561;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 export const TextCnpj = styled.p`
   padding-top: 10px;
